@@ -4,6 +4,4 @@ export function activate() {
   window.showInformationMessage('Hello')
 }
 
-export function deactivate() {
-
-}
+export function deactivate() {}

@@ -2,21 +2,20 @@
   "name": "name",
   "displayName": "My Extension",
   "version": "0.0.0",
-  "publisher": "antfu",
+  "publisher": "holazz",
   "packageManager": "pnpm@6.32.3",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/antfu/[name]#readme",
+  "homepage": "https://github.com/holazz/[name]#readme",
   "bugs": {
-    "url": "https://github.com/antfu/[name]/issues"
+    "url": "https://github.com/holazz/[name]/issues"
   },
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "zz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/[name]"
+    "url": "https://github.com/holazz/[name]"
   },
-  "funding": "https://github.com/sponsors/antfu",
   "main": "./dist/index.js",
   "files": [
     "dist"

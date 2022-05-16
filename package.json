@@ -3,7 +3,7 @@
   "displayName": "My Extension",
   "version": "0.0.0",
   "publisher": "holazz",
-  "packageManager": "pnpm@7.0.0",
+  "packageManager": "pnpm@7.1.0",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/holazz/[name]#readme",
@@ -22,7 +22,7 @@
   ],
   "sideEffects": false,
   "engines": {
-    "vscode": "^1.65.0"
+    "vscode": "^1.67.1"
   },
   "categories": [
     "Other"
@@ -32,7 +32,7 @@
   ],
   "icon": "res/icon.png",
   "scripts": {
-    "build": "tsup src/index.ts --external vscode",
+    "build": "tsup",
     "dev": "pnpm build --watch",
     "lint": "eslint .",
     "vscode:prepublish": "pnpm build",
@@ -43,14 +43,14 @@
     "release": "bumpp --commit --push --tag && pnpm publish"
   },
   "devDependencies": {
-    "@holazz/eslint-config": "^1.0.4",
-    "@types/node": "^17.0.31",
-    "@types/vscode": "^1.66.0",
+    "@holazz/eslint-config": "^1.0.5",
+    "@types/node": "^17.0.33",
+    "@types/vscode": "^1.67.0",
     "bumpp": "^7.1.1",
-    "eslint": "^8.14.0",
-    "tsup": "^5.12.6",
+    "eslint": "^8.15.0",
+    "tsup": "^5.12.7",
     "typescript": "^4.6.4",
-    "vitest": "^0.10.2",
+    "vitest": "^0.12.6",
     "vsce": "^2.7.0"
   }
 }
